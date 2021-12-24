@@ -1,0 +1,88 @@
+body {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#header {
+    position: fixed;
+    top: 1%;
+    left: 1%;
+    min-width: 98%;
+    min-height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#logo i {
+    color: red;
+}
+
+#logo a {
+    margin-left: 40px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.nav-items-right img {
+    border: 2px solid cyan;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.nav-items-right button {
+    position: relative;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.nav-items-right button span {
+    position: absolute;
+    color: black;
+    background-color: red;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 30px;
+    top: 50%;
+    left: 50%;
+}
+
+.user-name {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.gakusei-jyouho-nyuroku {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 100px;
+    border: 2px solid rgba(255, 0, 0, 0.6);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.col-md-5 {
+    min-height: 70vh;
+    margin-top: 10px;
+    border: 2px solid rgba(255, 0, 0, 0.6);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.col-right {
+    margin-right: 50px;
+    padding: 0;
+}
+
+.col-left {
+    padding: 0;
+    margin-left: 50px;
+}
+
+.col-title {
+    background-color: rgba(255, 0, 0, 0.6);
+}
+
+.d-block a {
+    padding-left: 200px;
+    padding-right: 200px;
+}

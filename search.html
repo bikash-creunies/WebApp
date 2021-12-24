@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist\css\bootstrap.css">
+    <script src="bootstrap-5.0.2-dist\js\bootstrap.min.js"></script>
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="/ccs files/search.css">
+    <script src="./jsfiles/search.js"></script>
+</head>
+
+<body>
+    <div id="header">
+        <nav id="navbar">
+            <div class="d-flex justify-content-between">
+                <div class=" d-flex align-items-center nav-items-left">
+                    <div id="logo" class="logo">
+                        <a class="text-dark p-2" href="#">GL<i class="fas fa-globe p-2"></i>BE</a>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center nav-items-right">
+                    <img id="profile" width="40px" height="40px" src="https://static.wixstatic.com/media/ea883b_9f64e50b22fe47c4af0f50ed65e6729f~mv2.jpg/v1/fill/w_1000,h_750,al_c,q_90,usm_0.66_1.00_0.01/ea883b_9f64e50b22fe47c4af0f50ed65e6729f~mv2.jpg" alt="">
+                    <h5 class="user-name text-dark ml-4">BIKASH</h5>
+                    <button id="" class="btn btn-outline-dark">ログアウト</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container-fluid" style="margin-top: 90px;">
+        <div class="card">
+            <div class="card-header bg-warning">
+                <div class="d-flex justify-content-between">
+                    <h5>学生検索</h5>
+                    <div>
+                        <button class="btn btn-outline-dark">戻る</button>
+                        <button class="btn btn-outline-dark">新規学生登録</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="container">
+                    <div class="search-topics d-flex justify-content-center">
+                        <a class="std_number active">学生番号</a>
+                        <a class="year">学年</a>
+                        <a class="class">クラス</a>
+                    </div>
+                    <div id="form" class="search-form">
+                        <div id="std_nmb" class="conditional-search mt-3">
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput" class="form-label">学生番号</label>
+                                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="例：A123">
+                            </div>
+                            <div class="d-block ">
+                                <button class="btn btn-outline-dark">検索</button>
+                            </div>
+                        </div>
+                        <div id="year" class="conditional-search mt-3" style="display: none;">
+                            <label for="formGroupExampleInput" class="form-label">学年</label>
+                            <select class="form-select" aria-label="small select example">
+                            <option value="1" selected>1年</option>
+                            <option value="2">２年</option>
+                          </select>
+                            <div class="d-block">
+                                <button class="btn btn-outline-dark">検索</button>
+                            </div>
+                        </div>
+                        <div id="class" class="conditional-search mt-3" style="display: none;">
+
+                            <label for="formGroupExampleInput" class="form-label">クラス</label>
+                            <select class="form-select" aria-label="small select example">
+                            <option value="1" selected>A1</option>
+                            <option value="2">B1</option>
+                          </select>
+                            <div class="d-block">
+                                <button class="btn btn-outline-dark">検索</button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

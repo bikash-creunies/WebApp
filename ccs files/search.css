@@ -1,0 +1,89 @@
+body {
+    background: rgb(0, 0, 0, 0.2);
+}
+
+#header {
+    position: fixed;
+    top: 1%;
+    left: 1%;
+    min-width: 98%;
+    min-height: 50px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#logo i {
+    color: red;
+}
+
+#logo a {
+    margin-left: 40px;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.nav-items-right img {
+    border: 2px solid cyan;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+.nav-items-right button {
+    position: relative;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.nav-items-right button span {
+    position: absolute;
+    color: black;
+    background-color: red;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 30px;
+    top: 50%;
+    left: 50%;
+}
+
+.user-name {
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.search-topics {
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+}
+
+.search-topics a {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+.active {
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.conditional-search input {
+    width: 500px;
+    padding: 5px;
+}
+
+.conditional-search button {
+    width: 300px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.search-form {
+    border-bottom: 2px solid red;
+    padding-bottom: 20px;
+}
